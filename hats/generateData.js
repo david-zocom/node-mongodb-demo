@@ -1,7 +1,7 @@
 function generateHat() {
 	const color = ['black', 'gray', 'red', 'blue', 'pink']
 	const material = ['wood', 'plastic', 'metal']
-	const hat = ['tophat', 'cap', 'fedora', 'beret', 'beanie', 'derbie', 'fez', 'turban', 'tricorne'];
+	const hat = ['tophat', 'cap', 'fedora', 'beret', 'beanie', 'derbie', 'fez', 'turban', 'tricorne', 'trillby'];
 	function randomElement(list) {
 		let r = Math.random() * list.length;
 		return list[Math.floor(r)];
